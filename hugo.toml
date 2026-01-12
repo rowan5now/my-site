@@ -1,0 +1,21 @@
+baseURL = 'https://rowanhardinge,com/'
+languageCode = 'en-us'
+title = 'My Site'
+theme = 'PaperMod'
+
+[params]
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+
+[[menu.main]]
+  name = 'Home'
+  url = '/'
+  weight = 1
+
+[[menu.main]]
+  name = 'Posts'
+  url = '/posts/'
+  weight = 2
